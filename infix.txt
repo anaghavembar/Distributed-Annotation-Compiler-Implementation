@@ -1,0 +1,17 @@
+import sys
+def getNextToken():
+    state=1
+    <while_true>:
+        ch=input("Enter a character")
+        <isDIGIT,> state=2
+        <else,><isADDOP,> state=6
+        <else,><isMULOP,> state=7
+        <else,><isWS,> state=8
+        <else,><isEOL,> state=10
+        <else,><isEOF,> state=11
+        yesorno=input("Do you wish to continue? y/n")
+        <ifYES,> pass
+        <else,><ifNO,> sys.exit()
+
+
+getNextToken()

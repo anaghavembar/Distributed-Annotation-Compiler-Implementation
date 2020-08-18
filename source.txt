@@ -1,0 +1,9 @@
+<MULOP>
+This is not printed on terminal
+<else><MULOP>
+<MULOP
+<WS>
+This is also parsed through without any output on terminal
+<EOF
+<EOL>
+
